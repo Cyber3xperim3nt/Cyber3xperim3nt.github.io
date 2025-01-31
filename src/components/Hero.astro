@@ -34,6 +34,8 @@ const { gradient, background, logo: showLogo } = Astro.props.frontmatter
             alt="Cyber3xperim3nt logo"
             src={logo}
             class="h-[48px] w-fit object-scale-down sm:h-24"
+	    style="display: none;" 
+	    onload="this.style.display='block';"
           />
         )
       }
